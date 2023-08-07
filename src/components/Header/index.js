@@ -3,11 +3,11 @@ import './styles.scss';
 
 function Header() {
   return (
-    <header>
-      <img src="http://localhost/Spe-React/Liste-Recette/src/assets/images/crepes.png" alt="crepes" />
-      <div>
-        <h1 className="titleH1">Crepes raffinées</h1>
-        <p className="header-name">John Deuf</p>
+    <header className="header">
+      <img className="header-image" src="http://localhost/Spe-React/Liste-Recette/src/assets/images/crepes.png" alt="crepes" />
+      <div className="header-infos">
+        <h1 className="header-title">Crepes raffinées</h1>
+        <p className="header-author">John Deuf</p>
       </div>
     </header>
 

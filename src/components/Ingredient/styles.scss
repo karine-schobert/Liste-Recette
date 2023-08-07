@@ -1,0 +1,25 @@
+.ingredients{
+
+  margin-top: 1rem;
+
+  &-item{
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  
+
+     /* sur le dernier trait du li je met fin au trait avec last-child*/
+  &-item:last-child{
+  border-bottom: 0;
+  }
+}
+
+ 
+
+  &-quantity{
+    padding: 0.3rem 1rem;
+    background:orange ;
+    color:#fff;
+    border-radius: 0.3rem;
+  }
+}

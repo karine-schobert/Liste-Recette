@@ -2,9 +2,13 @@ import './styles.scss';
 
 function Steps() {
   return (
-    <ul>
-      <li>Faire des crepes</li>
-      <li>Faire des crepes</li>
+    <ul className="steps">
+      <li className="steps-item">Faire des crepes</li>
+      <li className="steps-item">Faire des crepes</li>
+      <li className="steps-item">Faire des crepes</li>
+      <li className="steps-item">Faire des crepes</li>
+      <li className="steps-item">Faire des crepes</li>
+      <li className="steps-item">Faire des crepes</li>
     </ul>
 
   );
